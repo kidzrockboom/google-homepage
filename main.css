@@ -1,0 +1,47 @@
+html {
+    background-color: #fff;
+    color: #222;
+}
+
+header {
+    display: inline-block;
+    float: right;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+::after{
+    clear: both;
+}
+
+header a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #222;
+    margin-right: 5px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+#icon{
+    align-self: auto;
+}
+
+#sign_in{
+    color: white;
+    background-color: #4683ea;
+    font-weight: bold;
+    border: 7px solid #4285f4;
+    padding: 1px 1px;
+    
+}
+#sign_in:hover{
+    text-decoration: none;
+}
+
+main{
+    position: relative;
+    
+}
