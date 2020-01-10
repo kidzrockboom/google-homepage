@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -14,21 +15,30 @@
         <a id="icon" href="#"> <img src="icon.ico"> </a> 
         <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" id="sign_in">Sign-In</a>
     </header>
-
-    <main>
-            <p>Google Image</p>
-            <p>Search Bar</p>
-            <p>google Search     I'm Feeling Lucky</p>
-            <p>Google offered in: Hause Igbo Etc</p>
-    </main>
     
-    <footer>
+    <div id="main">
+            <img src="googlelogo.png">
+            <form action="#">
+                <div id="search">
+                                      
+                    <input id="searchbar" type="text" name="search"> 
+                    <div class="icon-image">
+                        <img class="icon" src="searchicon.png">
+                        
+                    </div>
+                <p>google Search     I'm Feeling Lucky</p>
+                </div>
+            </form>
+            <p>Google offered in: Hause Igbo Etc</p>
+    </div>
+    
+    <div id="footer">
         <div id="nav-1">
             <p>Nigeria</p>
         </div>
         <div id="nav-2">
             <p>Advertising Business Aout How Seach works     Privacy Terms Settings</p>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
